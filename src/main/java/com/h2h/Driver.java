@@ -18,7 +18,7 @@ public class Driver extends HttpServlet{
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Gson myGson = new Gson();
         MyData md = new MyData();
-        md.setTitle("HELLLO WORLD !");
+        md.setTitle("HELLLO WORLDddd :) !");
         resp.getWriter().write(myGson.toJson(md));
     }
 
